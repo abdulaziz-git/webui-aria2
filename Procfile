@@ -1,1 +1,1 @@
-worker: source setup.sh && bash start.sh
+worker: aria2c --enable-rpc --rpc-listen-all
